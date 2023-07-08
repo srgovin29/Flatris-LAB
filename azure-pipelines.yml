@@ -6,11 +6,11 @@
 trigger:
 - master
 
-pool:
-  name: Default
-  demands:
-    - agent.name -equals SRINIVASANG5F57
-#  vmImage: ubuntu-latest
+#pool:
+#  name: Default
+#  demands:
+#    - agent.name -equals SRINIVASANG5F57
+  vmImage: ubuntu-latest
 
 steps:
 - script: echo Hello, world!
