@@ -6,7 +6,7 @@
 trigger:
 - master
 
-#pool:
+pool:
 #  name: Default
 #  demands:
 #    - agent.name -equals SRINIVASANG5F57
